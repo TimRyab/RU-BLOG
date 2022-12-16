@@ -1,0 +1,28 @@
+header {
+  height: 90px;
+  display: flex;
+  padding: 30px;
+  box-shadow: 0 0 5px 0 #0003;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #606758;
+}
+.header__logo{
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
+}
+
+.header__btn {
+  padding-left: 30px;
+  color: white;
+}
+
+
+@media (min-width: 1260px) {
+  header {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+  }
+}
+

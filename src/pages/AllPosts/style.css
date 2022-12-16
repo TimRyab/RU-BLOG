@@ -1,0 +1,33 @@
+form {
+    width:400px;
+}
+input{
+    padding:4px 20px;
+    border:0;
+    font-size:30px;
+    position:relative;  
+    left:35%;
+    top:25%;
+    width:30%;
+    
+}
+.search {
+    width: 86%;
+    height: 50px;
+    margin-bottom: 40px;
+}
+.submit{
+    width: 15px;
+    height: 50px;
+    background-color: #666c70;
+    color:#ffffff;
+    cursor: pointer;
+}
+
+.posts__allposts{
+    margin: 20px 0 0 0;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+
